@@ -1,0 +1,33 @@
+# API keys (NEVER commit)
+agent/llm_keys.local.json
+
+# Benchmark data (large, download separately)
+data/
+
+# Inference outputs
+outputs/
+
+# Reference papers (large PDFs)
+references/
+
+# External model weights
+third_party/
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Claude Code session data
+.claude/
+
+# Workspace template (separate repo)
+ai-native-workspace/
+
+# OS
+.DS_Store
+Thumbs.db

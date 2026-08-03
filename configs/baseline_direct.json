@@ -1,0 +1,3352 @@
+{
+"6": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"4": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"27": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"26": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"29": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"23": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"13": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"20": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"15": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"34": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"32": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"31": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"35": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"36": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"38": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"45": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"40": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"46": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"49": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"53": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"54": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"58": {
+"answer": "Front-left",
+"gt": "Front-left",
+"correct": true
+},
+"62": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"63": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"65": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"76": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"71": {
+"answer": null,
+"gt": "Back-right",
+"correct": false
+},
+"78": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"81": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"80": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"89": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"90": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"82": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"84": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"92": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"96": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"98": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"99": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"102": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"106": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"105": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"109": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"107": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"110": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"112": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"111": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"114": {
+"answer": "Green",
+"gt": "Blue",
+"correct": false
+},
+"115": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"117": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"118": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"120": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"123": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"127": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"128": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"130": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"125": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"136": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"134": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"138": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"142": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"150": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"152": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"153": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"171": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"175": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"172": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"177": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"182": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"189": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"191": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"181": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"186": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"185": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"188": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"194": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"193": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"195": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"201": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"197": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"202": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"204": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"198": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"209": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"215": {
+"answer": "Slip",
+"gt": "Fixed",
+"correct": false
+},
+"213": {
+"answer": "Slip",
+"gt": "Slip",
+"correct": true
+},
+"216": {
+"answer": "Slip",
+"gt": "Fixed",
+"correct": false
+},
+"218": {
+"answer": "Fixed",
+"gt": "Slip",
+"correct": false
+},
+"222": {
+"answer": "Slip",
+"gt": "Slip",
+"correct": true
+},
+"221": {
+"answer": "Slip",
+"gt": "Slip",
+"correct": true
+},
+"228": {
+"answer": "Front-left",
+"gt": "Front-left",
+"correct": true
+},
+"224": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"233": {
+"answer": "Front-left",
+"gt": "Front-left",
+"correct": true
+},
+"230": {
+"answer": "Front-right",
+"gt": "Back-right",
+"correct": false
+},
+"239": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"237": {
+"answer": "Back-left",
+"gt": "Front-right",
+"correct": false
+},
+"240": {
+"answer": "Back-left",
+"gt": "Front-left",
+"correct": false
+},
+"251": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"257": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"250": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"256": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"258": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"259": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"260": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"267": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"269": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"273": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"277": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"275": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"270": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"279": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"272": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"280": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"282": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"287": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"298": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"286": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"299": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"284": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"300": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"303": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"302": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"307": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"310": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"314": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"313": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"315": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"320": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"323": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"321": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"324": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"329": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"330": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"331": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"332": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"334": {
+"answer": "Green",
+"gt": "Blue",
+"correct": false
+},
+"336": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"339": {
+"answer": "Green",
+"gt": "Blue",
+"correct": false
+},
+"335": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"341": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"342": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"343": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"340": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"348": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"351": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"354": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"355": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"360": {
+"answer": "Green",
+"gt": "Green",
+"correct": true
+},
+"362": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"363": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"356": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"364": {
+"answer": "Green",
+"gt": "Green",
+"correct": true
+},
+"365": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"368": {
+"answer": "Green",
+"gt": "Green",
+"correct": true
+},
+"370": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"367": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"375": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"371": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"387": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"384": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"390": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"394": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"396": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"405": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"399": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"408": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"412": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"410": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"414": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"417": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"416": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"419": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"418": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"425": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"427": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"421": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"429": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"431": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"430": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"436": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"444": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"446": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"449": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"451": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"457": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"462": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"460": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"464": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"469": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"467": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"471": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"470": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"478": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"479": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"481": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"484": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"490": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"493": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"496": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"499": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"492": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"500": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"504": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"505": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"507": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"506": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"511": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"509": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"516": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"520": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"528": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"522": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"529": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"533": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"532": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"534": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"540": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"536": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"544": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"549": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"556": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"555": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"564": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"557": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"562": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"566": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"567": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"569": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"570": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"571": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"572": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"575": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"576": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"577": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"579": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"578": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"583": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"588": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"594": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"595": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"597": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"585": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"600": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"602": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"601": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"613": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"607": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"608": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"609": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"614": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"615": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"621": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"616": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"618": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"623": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"624": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"627": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"625": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"628": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"635": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"629": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"638": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"642": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"633": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"650": {
+"answer": "Slip",
+"gt": "Slip",
+"correct": true
+},
+"652": {
+"answer": "Slip",
+"gt": "Slip",
+"correct": true
+},
+"653": {
+"answer": "Slip",
+"gt": "Slip",
+"correct": true
+},
+"663": {
+"answer": "Fixed",
+"gt": "Fixed",
+"correct": true
+},
+"654": {
+"answer": "Slip",
+"gt": "Fixed",
+"correct": false
+},
+"657": {
+"answer": "Slip",
+"gt": "Slip",
+"correct": true
+},
+"665": {
+"answer": "Slip",
+"gt": "Fixed",
+"correct": false
+},
+"666": {
+"answer": "Slip",
+"gt": "Fixed",
+"correct": false
+},
+"668": {
+"answer": "7",
+"gt": "7",
+"correct": true
+},
+"670": {
+"answer": "7",
+"gt": "3",
+"correct": false
+},
+"669": {
+"answer": "7",
+"gt": "7",
+"correct": true
+},
+"672": {
+"answer": "4",
+"gt": "3",
+"correct": false
+},
+"671": {
+"answer": "7",
+"gt": "7",
+"correct": true
+},
+"679": {
+"answer": "7",
+"gt": "4",
+"correct": false
+},
+"673": {
+"answer": "5",
+"gt": "5",
+"correct": true
+},
+"680": {
+"answer": "4",
+"gt": "4",
+"correct": true
+},
+"685": {
+"answer": "5",
+"gt": "5",
+"correct": true
+},
+"696": {
+"answer": "9",
+"gt": "9",
+"correct": true
+},
+"684": {
+"answer": "6",
+"gt": "6",
+"correct": true
+},
+"698": {
+"answer": "7",
+"gt": "5",
+"correct": false
+},
+"697": {
+"answer": "7",
+"gt": "7",
+"correct": true
+},
+"703": {
+"answer": "10",
+"gt": "8",
+"correct": false
+},
+"704": {
+"answer": "3",
+"gt": "3",
+"correct": true
+},
+"705": {
+"answer": "8",
+"gt": "3",
+"correct": false
+},
+"709": {
+"answer": "1",
+"gt": "2",
+"correct": false
+},
+"707": {
+"answer": "10",
+"gt": "9",
+"correct": false
+},
+"710": {
+"answer": "9",
+"gt": "9",
+"correct": true
+},
+"712": {
+"answer": "2",
+"gt": "2",
+"correct": true
+},
+"711": {
+"answer": "6",
+"gt": "6",
+"correct": true
+},
+"718": {
+"answer": "7",
+"gt": "5",
+"correct": false
+},
+"717": {
+"answer": "3",
+"gt": "4",
+"correct": false
+},
+"720": {
+"answer": "8",
+"gt": "7",
+"correct": false
+},
+"719": {
+"answer": "8",
+"gt": "4",
+"correct": false
+},
+"722": {
+"answer": "2",
+"gt": "2",
+"correct": true
+},
+"723": {
+"answer": "3",
+"gt": "3",
+"correct": true
+},
+"734": {
+"answer": "5",
+"gt": "2",
+"correct": false
+},
+"737": {
+"answer": "9",
+"gt": "7",
+"correct": false
+},
+"740": {
+"answer": "7",
+"gt": "4",
+"correct": false
+},
+"750": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"744": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"751": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"749": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"753": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"754": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"764": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"765": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"762": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"757": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"772": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"773": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"776": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"778": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"780": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"782": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"781": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"783": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"785": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"793": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"788": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"795": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"796": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"799": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"800": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"814": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"815": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"818": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"817": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"820": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"819": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"821": {
+"answer": "Blue",
+"gt": "Green",
+"correct": false
+},
+"829": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"823": {
+"answer": "Blue",
+"gt": "Blue",
+"correct": true
+},
+"828": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"822": {
+"answer": "Green",
+"gt": "Green",
+"correct": true
+},
+"831": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"833": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"834": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"832": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"835": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"837": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"838": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"836": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"840": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"855": {
+"answer": "Front-left",
+"gt": "Front-left",
+"correct": true
+},
+"856": {
+"answer": "Back-right",
+"gt": "Front-right",
+"correct": false
+},
+"852": {
+"answer": "Front-left",
+"gt": "Front-left",
+"correct": true
+},
+"857": {
+"answer": "Front-left",
+"gt": "Front-left",
+"correct": true
+},
+"866": {
+"answer": "Back-right",
+"gt": "Front-right",
+"correct": false
+},
+"867": {
+"answer": "Front-right",
+"gt": "Front-right",
+"correct": true
+},
+"873": {
+"answer": "Front-left",
+"gt": "Front-left",
+"correct": true
+},
+"871": {
+"answer": "Back-right",
+"gt": "Front-left",
+"correct": false
+},
+"868": {
+"answer": null,
+"gt": "Back-right",
+"correct": false
+},
+"876": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"874": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"875": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"878": {
+"answer": "Front-right",
+"gt": "Front-right",
+"correct": true
+},
+"885": {
+"answer": "Front-left",
+"gt": "Front-left",
+"correct": true
+},
+"887": {
+"answer": "Front-left",
+"gt": "Back-right",
+"correct": false
+},
+"892": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"893": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"902": {
+"answer": "Back-right",
+"gt": "Front-left",
+"correct": false
+},
+"904": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"900": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"901": {
+"answer": null,
+"gt": "Front-left",
+"correct": false
+},
+"906": {
+"answer": "Back-right",
+"gt": "Front-right",
+"correct": false
+},
+"908": {
+"answer": "Front-left",
+"gt": "Front-left",
+"correct": true
+},
+"910": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"909": {
+"answer": "Front-left",
+"gt": "Back-right",
+"correct": false
+},
+"917": {
+"answer": "Front-left",
+"gt": "Front-right",
+"correct": false
+},
+"911": {
+"answer": "Front-right",
+"gt": "Front-left",
+"correct": false
+},
+"918": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"919": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"920": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"932": {
+"answer": "Back-right",
+"gt": "Front-left",
+"correct": false
+},
+"923": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"931": {
+"answer": "Front-left",
+"gt": "Front-right",
+"correct": false
+},
+"927": {
+"answer": "Front-left",
+"gt": "Front-left",
+"correct": true
+},
+"960": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"962": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"963": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"973": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"970": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"971": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"967": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"980": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"985": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"992": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"989": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"995": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1003": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"996": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1004": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1010": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1007": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1006": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1012": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1013": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1022": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1025": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1024": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1031": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1036": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1039": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1050": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1040": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1053": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1054": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1062": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1060": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1058": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1064": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1067": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1063": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1069": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1068": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1071": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1074": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1079": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1080": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1083": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1084": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1085": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1090": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1087": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1096": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1095": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1097": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1109": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1107": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1112": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1114": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1115": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1118": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1113": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1121": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1124": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1125": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1131": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1128": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1139": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1134": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1144": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1143": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1146": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1147": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1150": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1148": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1154": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1152": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1159": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1155": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1160": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1163": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1161": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1172": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1165": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1170": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1175": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1173": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1177": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1178": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1180": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1185": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1182": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1188": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1193": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1194": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1195": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1199": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1202": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1200": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1204": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1205": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1207": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1206": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1210": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1208": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1214": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1217": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1218": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1220": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1222": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1221": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1227": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1225": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1232": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1239": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1228": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1234": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1241": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1240": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1243": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1245": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1244": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1246": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1248": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1249": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1253": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1255": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1256": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1257": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1260": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1266": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1264": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1263": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1267": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1268": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1269": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1277": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1283": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1281": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1278": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1286": {
+"answer": "Get up",
+"gt": "Lie down",
+"correct": false
+},
+"1289": {
+"answer": "Left-hand side",
+"gt": "Left-hand side",
+"correct": true
+},
+"1288": {
+"answer": "Right-hand side",
+"gt": "Right-hand side",
+"correct": true
+},
+"1298": {
+"answer": "Right",
+"gt": "Left",
+"correct": false
+},
+"1297": {
+"answer": "Right",
+"gt": "Left",
+"correct": false
+},
+"1290": {
+"answer": "Backward",
+"gt": "Forward",
+"correct": false
+},
+"1299": {
+"answer": "Right",
+"gt": "Left",
+"correct": false
+},
+"1300": {
+"answer": "Forward",
+"gt": "Backward",
+"correct": false
+},
+"1301": {
+"answer": "Right",
+"gt": "Right",
+"correct": true
+},
+"1302": {
+"answer": "Right",
+"gt": "Left",
+"correct": false
+},
+"1303": {
+"answer": "Right",
+"gt": "Left",
+"correct": false
+},
+"1305": {
+"answer": "Left",
+"gt": "Right",
+"correct": false
+},
+"1304": {
+"answer": "Left",
+"gt": "Right",
+"correct": false
+},
+"1307": {
+"answer": "Right",
+"gt": "Left",
+"correct": false
+},
+"1308": {
+"answer": "Left",
+"gt": "Right",
+"correct": false
+},
+"1309": {
+"answer": "Left",
+"gt": "Right",
+"correct": false
+},
+"1311": {
+"answer": "Left",
+"gt": "Left",
+"correct": true
+},
+"1312": {
+"answer": "Right",
+"gt": "Right",
+"correct": true
+},
+"1318": {
+"answer": "Left",
+"gt": "Right",
+"correct": false
+},
+"1324": {
+"answer": "Right",
+"gt": "Right",
+"correct": true
+},
+"1325": {
+"answer": "Left",
+"gt": "Right",
+"correct": false
+},
+"1329": {
+"answer": "Left",
+"gt": "Left",
+"correct": true
+},
+"1330": {
+"answer": "Approaching",
+"gt": "Approaching",
+"correct": true
+},
+"1321": {
+"answer": "Left",
+"gt": "Right",
+"correct": false
+},
+"1331": {
+"answer": "Downward",
+"gt": "Downward",
+"correct": true
+},
+"1332": {
+"answer": "Downward",
+"gt": "Downward",
+"correct": true
+},
+"1333": {
+"answer": "Downward",
+"gt": "Downward",
+"correct": true
+},
+"1334": {
+"answer": "Downward",
+"gt": "Downward",
+"correct": true
+},
+"1337": {
+"answer": "Horizontal",
+"gt": "Vertical",
+"correct": false
+},
+"1338": {
+"answer": "Horizontal",
+"gt": "Vertical",
+"correct": false
+},
+"1335": {
+"answer": "Approaching",
+"gt": "Moving away",
+"correct": false
+},
+"1336": {
+"answer": "Horizontal",
+"gt": "Horizontal",
+"correct": true
+},
+"1339": {
+"answer": "Horizontal",
+"gt": "Vertical",
+"correct": false
+},
+"1341": {
+"answer": "Horizontal",
+"gt": "Horizontal",
+"correct": true
+},
+"1344": {
+"answer": "Clockwise",
+"gt": "Counterclockwise",
+"correct": false
+},
+"1342": {
+"answer": "Horizontal",
+"gt": "Vertical",
+"correct": false
+},
+"1345": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"1350": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1355": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1352": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1361": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1360": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1358": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1359": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1365": {
+"answer": "on the man's Right-hand side",
+"gt": "on the man's Left-hand side",
+"correct": false
+},
+"1368": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1370": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1377": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1381": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1372": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"1383": {
+"answer": "Upward",
+"gt": "Upward",
+"correct": true
+},
+"77": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"57": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"50": {
+"answer": "Back-left",
+"gt": "Back-left",
+"correct": true
+},
+"69": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"9": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"59": {
+"answer": null,
+"gt": "Back-right",
+"correct": false
+},
+"52": {
+"answer": "Front-right",
+"gt": "Back-left",
+"correct": false
+},
+"55": {
+"answer": "Back-right",
+"gt": "Back-left",
+"correct": false
+},
+"137": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"144": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"148": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"145": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"146": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"140": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"156": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"168": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"165": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"170": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"206": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"205": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"210": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"229": {
+"answer": "Front-left",
+"gt": "Back-right",
+"correct": false
+},
+"234": {
+"answer": "Front-right",
+"gt": "Front-left",
+"correct": false
+},
+"226": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"241": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"249": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"253": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"309": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"243": {
+"answer": "Front-left",
+"gt": "Front-left",
+"correct": true
+},
+"395": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"428": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"389": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"438": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"398": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"442": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"452": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"448": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"456": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"463": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"455": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"483": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"491": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"454": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"530": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"546": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"513": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"554": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"550": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"548": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"552": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"573": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"604": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"678": {
+"answer": "6",
+"gt": "6",
+"correct": true
+},
+"580": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"682": {
+"answer": "6",
+"gt": "6",
+"correct": true
+},
+"721": {
+"answer": "7",
+"gt": "7",
+"correct": true
+},
+"708": {
+"answer": "4",
+"gt": "3",
+"correct": false
+},
+"738": {
+"answer": "7",
+"gt": "7",
+"correct": true
+},
+"741": {
+"answer": "8",
+"gt": "8",
+"correct": true
+},
+"743": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"756": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"767": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"784": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"775": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"791": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"792": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"798": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"768": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"851": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"863": {
+"answer": "Front-right",
+"gt": "Front-right",
+"correct": true
+},
+"880": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"894": {
+"answer": "Back-right",
+"gt": "Front-right",
+"correct": false
+},
+"884": {
+"answer": "Back-right",
+"gt": "Back-right",
+"correct": true
+},
+"812": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"926": {
+"answer": "Back-right",
+"gt": "Front-left",
+"correct": false
+},
+"969": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"976": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"979": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"982": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1011": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"899": {
+"answer": null,
+"gt": "Back-right",
+"correct": false
+},
+"1023": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1029": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1002": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1072": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1077": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1078": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1081": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1041": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1073": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1082": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1086": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1129": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1099": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1126": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1133": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1271": {
+"answer": "Clockwise",
+"gt": "Clockwise",
+"correct": true
+},
+"813": {
+"answer": "Yes",
+"gt": "Yes",
+"correct": true
+},
+"1020": {
+"answer": "No",
+"gt": "No",
+"correct": true
+},
+"1030": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1076": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+},
+"1092": {
+"answer": "Yes",
+"gt": "No",
+"correct": false
+},
+"1094": {
+"answer": "No",
+"gt": "Yes",
+"correct": false
+}
+}

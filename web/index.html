@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>ViSTR-Bench Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div class="brand">ViSTR<span>-Agent</span></div>
+  <nav>
+    <button class="tab active" data-tab="leaderboard">Leaderboard</button>
+    <button class="tab" data-tab="taxonomy">Taxonomy</button>
+    <button class="tab" data-tab="browser">Sample Browser</button>
+  </nav>
+  <div class="meta" id="header-meta">loading…</div>
+</header>
+
+<!-- ======================= Leaderboard ======================= -->
+<section id="tab-leaderboard" class="tabpage active">
+  <div class="runbar panel">
+    <span class="runbar-label">Runs:</span>
+    <span id="run-checkboxes"></span>
+    <span class="runbar-hint">对照：Human 91.0 / GPT-5.4-thinking 62.0 / Chance(Freq) 57.9（论文全集）</span>
+  </div>
+  <div class="grid-3">
+    <div class="panel"><h3>A. Overall Accuracy</h3><div id="chart-overall"></div></div>
+    <div class="panel"><h3>B. Accuracy by Dimension</h3><div id="chart-dims"></div></div>
+    <div class="panel"><h3>C. Single-Option Bias Monitor</h3><div id="chart-bias"></div></div>
+  </div>
+  <div class="panel"><h3>D. Per-Task Accuracy Heatmap</h3><div id="chart-heatmap"></div></div>
+</section>
+
+<!-- ======================= Taxonomy ======================= -->
+<section id="tab-taxonomy" class="tabpage">
+  <div class="tax-overview panel" id="tax-overview"></div>
+  <div id="tax-dims"></div>
+</section>
+
+<!-- ======================= Sample Browser ======================= -->
+<section id="tab-browser" class="tabpage">
+  <div class="browser">
+    <aside class="panel sidebar">
+      <div class="filters">
+        <select id="f-run"></select>
+        <select id="f-task"><option value="">All tasks</option></select>
+        <select id="f-status">
+          <option value="all">All</option>
+          <option value="correct">Correct</option>
+          <option value="wrong">Wrong</option>
+        </select>
+        <input id="f-q" type="search" placeholder="search id / question…">
+      </div>
+      <div class="list-meta" id="list-meta"></div>
+      <ul class="sample-list" id="sample-list"></ul>
+    </aside>
+    <main class="panel detail" id="detail">
+      <div class="detail-empty" id="detail-empty">← 选择一个样本查看回放</div>
+      <div id="detail-body" hidden>
+        <div class="detail-head">
+          <span class="sid" id="d-id"></span>
+          <span class="stag" id="d-task"></span>
+          <span class="stag dim" id="d-dim"></span>
+          <button id="d-another" title="随机换一题（当前过滤范围内）">换一题</button>
+          <span class="verdict" id="d-verdict"></span>
+        </div>
+        <div class="detail-grid">
+          <div>
+            <video id="d-video" controls preload="metadata"></video>
+            <div class="novideo" id="d-novideo" hidden>该样本无视频文件（demo 数据）</div>
+          </div>
+          <div class="qa">
+            <h4>Question</h4>
+            <p id="d-question"></p>
+            <div id="d-options"></div>
+            <div class="gtpred">
+              <span id="d-gt"></span><span id="d-pred"></span>
+            </div>
+          </div>
+        </div>
+        <details class="box" id="d-cot-box" hidden>
+          <summary>Manual CoT Prompt（benchmark 官方模板）</summary>
+          <pre id="d-cot"></pre>
+        </details>
+        <div class="box" id="d-evidence-box" hidden>
+          <h4>Tool Evidence（语言原生摘要）</h4>
+          <pre id="d-evidence"></pre>
+        </div>
+        <div class="box" id="d-reasoning-box" hidden>
+          <h4>Agent Reasoning</h4>
+          <pre id="d-reasoning"></pre>
+        </div>
+      </div>
+    </main>
+  </div>
+</section>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

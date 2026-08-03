@@ -1,0 +1,5 @@
+{
+  "base_url": "https://your-api-gateway/v1",
+  "model": "your-model-name",
+  "api_keys": ["your-api-key-1", "your-api-key-2"]
+}

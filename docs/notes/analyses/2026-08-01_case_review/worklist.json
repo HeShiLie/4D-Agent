@@ -1,0 +1,1277 @@
+[
+ {
+  "id": 1,
+  "task": "Basketball_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Ego4D",
+  "video": "data/Outcome_Prediction/Basketball_Shot/Ego4D/775acd8e-086f-48cf-adf3-c154f0d0bd2d-1.mp4",
+  "question": "This is a video of a basketball shot. Please predict whether the basketball will go into the hoop. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Basketball_Shot_id0001.jpg",
+  "n_frames": 79,
+  "fps": 30.0,
+  "dur_s": 2.63
+ },
+ {
+  "id": 817,
+  "task": "Basketball_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Ego4D",
+  "video": "data/Outcome_Prediction/Basketball_Shot/Ego4D/c48a70f7-44a3-44aa-ac14-baf35e696e5c-1-10.mp4",
+  "question": "This is a video of a basketball shot. Please predict whether the basketball will go into the hoop. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Basketball_Shot_id0817.jpg",
+  "n_frames": 200,
+  "fps": 30.0,
+  "dur_s": 6.67
+ },
+ {
+  "id": 775,
+  "task": "Basketball_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Ego4D",
+  "video": "data/Outcome_Prediction/Basketball_Shot/Ego4D/652f0590-aab5-4de1-b578-238adb54fa0e-1-34.mp4",
+  "question": "This is a video of a basketball shot. Please predict whether the basketball will go into the hoop. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Basketball_Shot_id0775.jpg",
+  "n_frames": 63,
+  "fps": 30.0,
+  "dur_s": 2.1
+ },
+ {
+  "id": 784,
+  "task": "Basketball_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Ego4D",
+  "video": "data/Outcome_Prediction/Basketball_Shot/Ego4D/652f0590-aab5-4de1-b578-238adb54fa0e-1-43.mp4",
+  "question": "This is a video of a basketball shot. Please predict whether the basketball will go into the hoop. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Basketball_Shot_id0784.jpg",
+  "n_frames": 54,
+  "fps": 30.0,
+  "dur_s": 1.8
+ },
+ {
+  "id": 799,
+  "task": "Basketball_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Ego4D",
+  "video": "data/Outcome_Prediction/Basketball_Shot/Ego4D/775acd8e-086f-48cf-adf3-c154f0d0bd2d-1-10.mp4",
+  "question": "This is a video of a basketball shot. Please predict whether the basketball will go into the hoop. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Basketball_Shot_id0799.jpg",
+  "n_frames": 57,
+  "fps": 30.0,
+  "dur_s": 1.9
+ },
+ {
+  "id": 27,
+  "task": "Billiards_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Ego4D",
+  "video": "data/Outcome_Prediction/Billiards_Shot/Ego4D/9848e52e-e6f3-4190-9c42-f85cd9847e10-6.mp4",
+  "question": "This is a video of billiards. Please predict whether the target ball will go into the pocket based on its current trajectory. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Billiards_Shot_id0027.jpg",
+  "n_frames": 67,
+  "fps": 30.0,
+  "dur_s": 2.23
+ },
+ {
+  "id": 442,
+  "task": "Billiards_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Billiards_Shot/Bilibili/1214765667_x1-1-100144-3.mp4",
+  "question": "This is a video of billiards. Please predict whether the target ball will go into the pocket based on its current trajectory. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Billiards_Shot_id0442.jpg",
+  "n_frames": 12,
+  "fps": 30.0,
+  "dur_s": 0.4
+ },
+ {
+  "id": 454,
+  "task": "Billiards_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Billiards_Shot/Bilibili/1214765667_x1-1-100144-15.mp4",
+  "question": "This is a video of billiards. Please predict whether the target ball will go into the pocket based on its current trajectory. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Billiards_Shot_id0454.jpg",
+  "n_frames": 63,
+  "fps": 30.0,
+  "dur_s": 2.1
+ },
+ {
+  "id": 469,
+  "task": "Billiards_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Billiards_Shot/Bilibili/1315826455-1-100144-2.mp4",
+  "question": "This is a video of billiards. Please predict whether the target ball will go into the pocket based on its current trajectory. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Billiards_Shot_id0469.jpg",
+  "n_frames": 197,
+  "fps": 30.0,
+  "dur_s": 6.57
+ },
+ {
+  "id": 479,
+  "task": "Billiards_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Billiards_Shot/Bilibili/1315826455-1-100144-12.mp4",
+  "question": "This is a video of billiards. Please predict whether the target ball will go into the pocket based on its current trajectory. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Billiards_Shot_id0479.jpg",
+  "n_frames": 30,
+  "fps": 30.0,
+  "dur_s": 1.0
+ },
+ {
+  "id": 53,
+  "task": "Ego_Motion",
+  "dimension": "Spatial_Relations",
+  "dataset": "ARKitScenes",
+  "video": "data/Spatial_Relations/Ego_Motion/ARKitScenes/41159504-1.mp4",
+  "question": "This is a video recorded by a moving camera in an indoor scene. The target object is the bathtub. Please determine the final position of the target object relative to the camera. Is it Front-right or Back-right? Answer Front-right or Back-right.",
+  "options": [
+   "Front-right",
+   "Back-right"
+  ],
+  "gt": "Back-right",
+  "montage": "frames/Ego_Motion_id0053.jpg",
+  "n_frames": 293,
+  "fps": 30.0,
+  "dur_s": 9.77
+ },
+ {
+  "id": 852,
+  "task": "Ego_Motion",
+  "dimension": "Spatial_Relations",
+  "dataset": "ScanNet++",
+  "video": "data/Spatial_Relations/Ego_Motion/ScanNet++/7b6477cb95-2.mp4",
+  "question": "This is a video recorded by a moving camera in an indoor scene. The target object is the telephone. Please determine the final position of the target object relative to the camera. Is it Front-right or Front-left? Answer Front-right or Front-left.",
+  "options": [
+   "Front-right",
+   "Front-left"
+  ],
+  "gt": "Front-left",
+  "montage": "frames/Ego_Motion_id0852.jpg",
+  "n_frames": 559,
+  "fps": 30.0,
+  "dur_s": 18.63
+ },
+ {
+  "id": 892,
+  "task": "Ego_Motion",
+  "dimension": "Spatial_Relations",
+  "dataset": "ScanNet",
+  "video": "data/Spatial_Relations/Ego_Motion/ScanNet/scene0651_02-1.mp4",
+  "question": "This is a video recorded by a moving camera in an indoor scene. The target object is the stove. Please determine the final position of the target object relative to the camera. Is it Front-right or Back-left? Answer Front-right or Back-left.",
+  "options": [
+   "Front-right",
+   "Back-left"
+  ],
+  "gt": "Back-left",
+  "montage": "frames/Ego_Motion_id0892.jpg",
+  "n_frames": 293,
+  "fps": 30.0,
+  "dur_s": 9.77
+ },
+ {
+  "id": 863,
+  "task": "Ego_Motion",
+  "dimension": "Spatial_Relations",
+  "dataset": "ScanNet++",
+  "video": "data/Spatial_Relations/Ego_Motion/ScanNet++/45b0dac5e3-2.mp4",
+  "question": "This is a video recorded by a moving camera in an indoor scene. The target object is the laundry machine. Please determine the final position of the target object relative to the camera. Is it Back-left or Front-right? Answer Back-left or Front-right.",
+  "options": [
+   "Back-left",
+   "Front-right"
+  ],
+  "gt": "Front-right",
+  "montage": "frames/Ego_Motion_id0863.jpg",
+  "n_frames": 462,
+  "fps": 30.0,
+  "dur_s": 15.4
+ },
+ {
+  "id": 59,
+  "task": "Ego_Motion",
+  "dimension": "Spatial_Relations",
+  "dataset": "ARKitScenes",
+  "video": "data/Spatial_Relations/Ego_Motion/ARKitScenes/42444976-3.mp4",
+  "question": "This is a video recorded by a moving camera in an indoor scene. The target object is the refrigerator. Please determine the final position of the target object relative to the camera. Is it Back-right or Front-left? Answer Back-right or Front-left.",
+  "options": [
+   "Back-right",
+   "Front-left"
+  ],
+  "gt": "Back-right",
+  "montage": "frames/Ego_Motion_id0059.jpg",
+  "n_frames": 629,
+  "fps": 30.0,
+  "dur_s": 20.97
+ },
+ {
+  "id": 1301,
+  "task": "Fall_Direction",
+  "dimension": "Outcome_Prediction",
+  "dataset": "YouTube",
+  "video": "data/Outcome_Prediction/Fall_Direction/YouTube/2026_06_24_18_09_25_Trim.mp4",
+  "question": "This is a video of a person falling. Please determine the person's fall direction. Answer Left or Right.",
+  "options": [
+   "Left",
+   "Right"
+  ],
+  "gt": "Right",
+  "montage": "frames/Fall_Direction_id1301.jpg",
+  "n_frames": 189,
+  "fps": 60.3,
+  "dur_s": 3.13
+ },
+ {
+  "id": 1299,
+  "task": "Fall_Direction",
+  "dimension": "Outcome_Prediction",
+  "dataset": "YouTube",
+  "video": "data/Outcome_Prediction/Fall_Direction/YouTube/2026_06_24_18_06_26_Trim_Trim.mp4",
+  "question": "This is a video of a person falling. Please determine the person's fall direction. Answer Left or Right.",
+  "options": [
+   "Left",
+   "Right"
+  ],
+  "gt": "Left",
+  "montage": "frames/Fall_Direction_id1299.jpg",
+  "n_frames": 189,
+  "fps": 60.4,
+  "dur_s": 3.13
+ },
+ {
+  "id": 1286,
+  "task": "Fall_Direction",
+  "dimension": "Outcome_Prediction",
+  "dataset": "MotionX",
+  "video": "data/Outcome_Prediction/Fall_Direction/MotionX/Ways_to_Go_to_Bed_Sleep_Wake_Up_Big_Stretch_clip1_00_00_00_000_00_00_03_088.mp4",
+  "question": "This is a video of a person falling. Please determine the person's fall direction. Answer Get up or Lie down.",
+  "options": [
+   "Get up",
+   "Lie down"
+  ],
+  "gt": "Lie down",
+  "montage": "frames/Fall_Direction_id1286.jpg",
+  "n_frames": 76,
+  "fps": 23.0,
+  "dur_s": 3.3
+ },
+ {
+  "id": 1288,
+  "task": "Fall_Direction",
+  "dimension": "Outcome_Prediction",
+  "dataset": "MotionX",
+  "video": "data/Outcome_Prediction/Fall_Direction/MotionX/Ways_to_Jump_Sit_Fall_Basketball_Fake_Out_clip1_00_00_00_000_00_00_03_013.mp4",
+  "question": "This is a video of a person falling. Please determine the person's fall direction. Answer Left-hand side or Right-hand side.",
+  "options": [
+   "Left-hand side",
+   "Right-hand side"
+  ],
+  "gt": "Right-hand side",
+  "montage": "frames/Fall_Direction_id1288.jpg",
+  "n_frames": 74,
+  "fps": 23.0,
+  "dur_s": 3.22
+ },
+ {
+  "id": 1289,
+  "task": "Fall_Direction",
+  "dimension": "Outcome_Prediction",
+  "dataset": "MotionX",
+  "video": "data/Outcome_Prediction/Fall_Direction/MotionX/Ways_to_Jump_Sit_Fall_Duel_clip1_00_00_00_000_00_00_02_490.mp4",
+  "question": "This is a video of a person falling. Please determine the person's fall direction. Answer Left-hand side or Right-hand side.",
+  "options": [
+   "Left-hand side",
+   "Right-hand side"
+  ],
+  "gt": "Left-hand side",
+  "montage": "frames/Fall_Direction_id1289.jpg",
+  "n_frames": 61,
+  "fps": 23.0,
+  "dur_s": 2.65
+ },
+ {
+  "id": 387,
+  "task": "Golf_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "YouTube",
+  "video": "data/Outcome_Prediction/Golf_Shot/YouTube/videoplayback_1-2.mp4",
+  "question": "This is a video of a golf shot. Please predict whether the golf ball will go into the hole based on its observed trajectory. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Golf_Shot_id0387.jpg",
+  "n_frames": 137,
+  "fps": 30.0,
+  "dur_s": 4.57
+ },
+ {
+  "id": 396,
+  "task": "Golf_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Golf_Shot/Bilibili/766427682_f33-1-30064-2.mp4",
+  "question": "This is a video of a golf shot. Please predict whether the golf ball will go into the hole based on its observed trajectory. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Golf_Shot_id0396.jpg",
+  "n_frames": 318,
+  "fps": 30.0,
+  "dur_s": 10.6
+ },
+ {
+  "id": 408,
+  "task": "Golf_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Golf_Shot/Bilibili/766427682_f33-1-30064-14.mp4",
+  "question": "This is a video of a golf shot. Please predict whether the golf ball will go into the hole based on its observed trajectory. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Golf_Shot_id0408.jpg",
+  "n_frames": 273,
+  "fps": 30.0,
+  "dur_s": 9.1
+ },
+ {
+  "id": 431,
+  "task": "Golf_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Golf_Shot/Bilibili/772973786-1-30064-1.mp4",
+  "question": "This is a video of a golf shot. Please predict whether the golf ball will go into the hole based on its observed trajectory. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Golf_Shot_id0431.jpg",
+  "n_frames": 149,
+  "fps": 30.0,
+  "dur_s": 4.97
+ },
+ {
+  "id": 430,
+  "task": "Golf_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Golf_Shot/Bilibili/766427682_f33-1-30064-36.mp4",
+  "question": "This is a video of a golf shot. Please predict whether the golf ball will go into the hole based on its observed trajectory. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Golf_Shot_id0430.jpg",
+  "n_frames": 174,
+  "fps": 30.0,
+  "dur_s": 5.8
+ },
+ {
+  "id": 1350,
+  "task": "Interaction_Direction",
+  "dimension": "Spatial_Relations",
+  "dataset": "MotionX",
+  "video": "data/Spatial_Relations/Interaction_Direction/MotionX/climb_pole_6_clip1_camera_motion.mp4",
+  "question": "This is a video of an interaction between a person and a climbing surface. Please determine the person's movement direction relative to a climbing surface. Answer Upward or Downward.",
+  "options": [
+   "Upward",
+   "Downward"
+  ],
+  "gt": "Upward",
+  "montage": "frames/Interaction_Direction_id1350.jpg",
+  "n_frames": 119,
+  "fps": 30.0,
+  "dur_s": 3.97
+ },
+ {
+  "id": 1331,
+  "task": "Interaction_Direction",
+  "dimension": "Spatial_Relations",
+  "dataset": "MotionX",
+  "video": "data/Spatial_Relations/Interaction_Direction/MotionX/abseiling_2_clip1_camera_motion.mp4",
+  "question": "This is a video of an interaction between a person and a wall. Please determine the person's movement direction relative to a wall. Answer Downward or Upward.",
+  "options": [
+   "Downward",
+   "Upward"
+  ],
+  "gt": "Downward",
+  "montage": "frames/Interaction_Direction_id1331.jpg",
+  "n_frames": 86,
+  "fps": 30.0,
+  "dur_s": 2.87
+ },
+ {
+  "id": 1338,
+  "task": "Interaction_Direction",
+  "dimension": "Spatial_Relations",
+  "dataset": "MotionX",
+  "video": "data/Spatial_Relations/Interaction_Direction/MotionX/cleaning_mirror_4_clip1_camera_motion.mp4",
+  "question": "This is a video of an interaction between a person and a mirror. Please determine the person's movement direction relative to a mirror. Answer Horizontal or Vertical.",
+  "options": [
+   "Horizontal",
+   "Vertical"
+  ],
+  "gt": "Vertical",
+  "montage": "frames/Interaction_Direction_id1338.jpg",
+  "n_frames": 32,
+  "fps": 30.0,
+  "dur_s": 1.07
+ },
+ {
+  "id": 1341,
+  "task": "Interaction_Direction",
+  "dimension": "Spatial_Relations",
+  "dataset": "MotionX",
+  "video": "data/Spatial_Relations/Interaction_Direction/MotionX/cleaning_mirror_9_clip1_camera_motion.mp4",
+  "question": "This is a video of an interaction between a person and a mirror. Please determine the person's movement direction relative to a mirror. Answer Horizontal or Vertical.",
+  "options": [
+   "Horizontal",
+   "Vertical"
+  ],
+  "gt": "Horizontal",
+  "montage": "frames/Interaction_Direction_id1341.jpg",
+  "n_frames": 38,
+  "fps": 24.0,
+  "dur_s": 1.58
+ },
+ {
+  "id": 1330,
+  "task": "Interaction_Direction",
+  "dimension": "Spatial_Relations",
+  "dataset": "MotionX",
+  "video": "data/Spatial_Relations/Interaction_Direction/MotionX/Ways_to_Catch_Dive_clip1_camera_motion.mp4",
+  "question": "This is a video of an interaction between a person and a mat. Please determine the person's movement direction relative to a mat. Answer Approaching or Moving away.",
+  "options": [
+   "Approaching",
+   "Moving away"
+  ],
+  "gt": "Approaching",
+  "montage": "frames/Interaction_Direction_id1330.jpg",
+  "n_frames": 67,
+  "fps": 23.0,
+  "dur_s": 2.91
+ },
+ {
+  "id": 137,
+  "task": "Jenga_Stability",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Jenga_Stability/Video/20260115-164002-2.mp4",
+  "question": "This is a video of a Jenga game. Please predict whether the tower will remain stable after the block that the hand is trying to pull out is removed. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Jenga_Stability_id0137.jpg",
+  "n_frames": 95,
+  "fps": 30.0,
+  "dur_s": 3.17
+ },
+ {
+  "id": 146,
+  "task": "Jenga_Stability",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Jenga_Stability/Video/20260115-164002-11.mp4",
+  "question": "This is a video of a Jenga game. Please predict whether the tower will remain stable after the block that the hand is trying to pull out is removed. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Jenga_Stability_id0146.jpg",
+  "n_frames": 144,
+  "fps": 30.0,
+  "dur_s": 4.8
+ },
+ {
+  "id": 1072,
+  "task": "Jenga_Stability",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Jenga_Stability/Video/VID20260419164948-18.mp4",
+  "question": "This is a video of a Jenga game. Please predict whether the tower will remain stable after the block that the hand is trying to pull out is removed. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Jenga_Stability_id1072.jpg",
+  "n_frames": 66,
+  "fps": 30.0,
+  "dur_s": 2.2
+ },
+ {
+  "id": 148,
+  "task": "Jenga_Stability",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Jenga_Stability/Video/20260115-164002-13.mp4",
+  "question": "This is a video of a Jenga game. Please predict whether the tower will remain stable after the block that the hand is trying to pull out is removed. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Jenga_Stability_id0148.jpg",
+  "n_frames": 166,
+  "fps": 30.0,
+  "dur_s": 5.53
+ },
+ {
+  "id": 1030,
+  "task": "Jenga_Stability",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Jenga_Stability/Video/VID20260419164244-7.mp4",
+  "question": "This is a video of a Jenga game. Please predict whether the tower will remain stable after the block that the hand is trying to pull out is removed. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Jenga_Stability_id1030.jpg",
+  "n_frames": 76,
+  "fps": 30.0,
+  "dur_s": 2.53
+ },
+ {
+  "id": 213,
+  "task": "Knot_Type",
+  "dimension": "Physical_Dynamics",
+  "dataset": "YouTube",
+  "video": "data/Physical_Dynamics/Knot_Type/YouTube/3.mp4",
+  "question": "This is a video of knot manipulation. Please determine whether the knot is a slip knot (can be undone by pulling one end) or a fixed knot (cannot be undone and remains tight when pulled). Answer Slip or Fixed.",
+  "options": [
+   "Slip",
+   "Fixed"
+  ],
+  "gt": "Slip",
+  "montage": "frames/Knot_Type_id0213.jpg",
+  "n_frames": 365,
+  "fps": 30.0,
+  "dur_s": 12.17
+ },
+ {
+  "id": 654,
+  "task": "Knot_Type",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Bilibili",
+  "video": "data/Physical_Dynamics/Knot_Type/Bilibili/152337032-1-30102-5.mp4",
+  "question": "This is a video of knot manipulation. Please determine whether the knot is a slip knot (can be undone by pulling one end) or a fixed knot (cannot be undone and remains tight when pulled). Answer Slip or Fixed.",
+  "options": [
+   "Slip",
+   "Fixed"
+  ],
+  "gt": "Fixed",
+  "montage": "frames/Knot_Type_id0654.jpg",
+  "n_frames": 774,
+  "fps": 30.0,
+  "dur_s": 25.8
+ },
+ {
+  "id": 218,
+  "task": "Knot_Type",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Knot_Type/Video/20260115-161257.mp4",
+  "question": "This is a video of knot manipulation. Please determine whether the knot is a slip knot (can be undone by pulling one end) or a fixed knot (cannot be undone and remains tight when pulled). Answer Slip or Fixed.",
+  "options": [
+   "Slip",
+   "Fixed"
+  ],
+  "gt": "Slip",
+  "montage": "frames/Knot_Type_id0218.jpg",
+  "n_frames": 284,
+  "fps": 30.0,
+  "dur_s": 9.47
+ },
+ {
+  "id": 666,
+  "task": "Knot_Type",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Bilibili",
+  "video": "data/Physical_Dynamics/Knot_Type/Bilibili/152337032-1-30102-17.mp4",
+  "question": "This is a video of knot manipulation. Please determine whether the knot is a slip knot (can be undone by pulling one end) or a fixed knot (cannot be undone and remains tight when pulled). Answer Slip or Fixed.",
+  "options": [
+   "Slip",
+   "Fixed"
+  ],
+  "gt": "Fixed",
+  "montage": "frames/Knot_Type_id0666.jpg",
+  "n_frames": 654,
+  "fps": 30.0,
+  "dur_s": 21.8
+ },
+ {
+  "id": 222,
+  "task": "Knot_Type",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Knot_Type/Video/2026-01-19_154108_527.mp4",
+  "question": "This is a video of knot manipulation. Please determine whether the knot is a slip knot (can be undone by pulling one end) or a fixed knot (cannot be undone and remains tight when pulled). Answer Slip or Fixed.",
+  "options": [
+   "Slip",
+   "Fixed"
+  ],
+  "gt": "Slip",
+  "montage": "frames/Knot_Type_id0222.jpg",
+  "n_frames": 238,
+  "fps": 30.0,
+  "dur_s": 7.93
+ },
+ {
+  "id": 185,
+  "task": "Mikado_Dependency",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Mikado_Dependency/Video/20260115-171713-7.mp4",
+  "question": "This is a video of a Mikado game. Please predict whether the stick indicated by the pointing stick can be picked up without touching any other sticks. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Mikado_Dependency_id0185.jpg",
+  "n_frames": 66,
+  "fps": 30.0,
+  "dur_s": 2.2
+ },
+ {
+  "id": 962,
+  "task": "Mikado_Dependency",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Mikado_Dependency/Video/VID20260419163455-3.mp4",
+  "question": "This is a video of a Mikado game. Please predict whether the stick indicated by the pointing stick can be picked up without touching any other sticks. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Mikado_Dependency_id0962.jpg",
+  "n_frames": 53,
+  "fps": 30.0,
+  "dur_s": 1.77
+ },
+ {
+  "id": 197,
+  "task": "Mikado_Dependency",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Mikado_Dependency/Video/20260115-171746-9.mp4",
+  "question": "This is a video of a Mikado game. Please predict whether the stick indicated by the pointing stick can be picked up without touching any other sticks. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Mikado_Dependency_id0197.jpg",
+  "n_frames": 70,
+  "fps": 30.0,
+  "dur_s": 2.33
+ },
+ {
+  "id": 996,
+  "task": "Mikado_Dependency",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Mikado_Dependency/Video/VID20260419163247-16.mp4",
+  "question": "This is a video of a Mikado game. Please predict whether the stick indicated by the pointing stick can be picked up without touching any other sticks. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Mikado_Dependency_id0996.jpg",
+  "n_frames": 60,
+  "fps": 30.0,
+  "dur_s": 2.0
+ },
+ {
+  "id": 195,
+  "task": "Mikado_Dependency",
+  "dimension": "Physical_Dynamics",
+  "dataset": "Video",
+  "video": "data/Physical_Dynamics/Mikado_Dependency/Video/20260115-171746-7.mp4",
+  "question": "This is a video of a Mikado game. Please predict whether the stick indicated by the pointing stick can be picked up without touching any other sticks. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Mikado_Dependency_id0195.jpg",
+  "n_frames": 60,
+  "fps": 30.0,
+  "dur_s": 2.0
+ },
+ {
+  "id": 1084,
+  "task": "Passage_Feasibility",
+  "dimension": "Spatial_Relations",
+  "dataset": "Video",
+  "video": "data/Spatial_Relations/Passage_Feasibility/Video/DVR_LEFT_2026_04_30_16_50_18_320-1.mp4",
+  "question": "This is a video of a vehicle and traffic cones placed near its driving path. Please predict whether the vehicle can pass the cone-constrained area without touching any cone. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Passage_Feasibility_id1084.jpg",
+  "n_frames": 189,
+  "fps": 30.0,
+  "dur_s": 6.3
+ },
+ {
+  "id": 1134,
+  "task": "Passage_Feasibility",
+  "dimension": "Spatial_Relations",
+  "dataset": "Video",
+  "video": "data/Spatial_Relations/Passage_Feasibility/Video/VID20260430164949-1.mp4",
+  "question": "This is a video of a vehicle and traffic cones placed near its driving path. Please predict whether the vehicle can pass the cone-constrained area without touching any cone. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Passage_Feasibility_id1134.jpg",
+  "n_frames": 116,
+  "fps": 30.0,
+  "dur_s": 3.87
+ },
+ {
+  "id": 1109,
+  "task": "Passage_Feasibility",
+  "dimension": "Spatial_Relations",
+  "dataset": "Video",
+  "video": "data/Spatial_Relations/Passage_Feasibility/Video/IMG_5379-1.mp4",
+  "question": "This is a video of a vehicle and traffic cones placed near its driving path. Please predict whether the vehicle can pass the cone-constrained area without touching any cone. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Passage_Feasibility_id1109.jpg",
+  "n_frames": 270,
+  "fps": 30.0,
+  "dur_s": 9.0
+ },
+ {
+  "id": 1095,
+  "task": "Passage_Feasibility",
+  "dimension": "Spatial_Relations",
+  "dataset": "Video",
+  "video": "data/Spatial_Relations/Passage_Feasibility/Video/IMG_5364-1.mp4",
+  "question": "This is a video of a vehicle and traffic cones placed near its driving path. Please predict whether the vehicle can pass the cone-constrained area without touching any cone. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Passage_Feasibility_id1095.jpg",
+  "n_frames": 384,
+  "fps": 30.0,
+  "dur_s": 12.8
+ },
+ {
+  "id": 1118,
+  "task": "Passage_Feasibility",
+  "dimension": "Spatial_Relations",
+  "dataset": "Video",
+  "video": "data/Spatial_Relations/Passage_Feasibility/Video/VID20260430161739-1.mp4",
+  "question": "This is a video of a vehicle and traffic cones placed near its driving path. Please predict whether the vehicle can pass the cone-constrained area without touching any cone. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Passage_Feasibility_id1118.jpg",
+  "n_frames": 92,
+  "fps": 30.0,
+  "dur_s": 3.07
+ },
+ {
+  "id": 111,
+  "task": "Relative_Velocity",
+  "dimension": "Motion_Perception",
+  "dataset": "Waymo",
+  "video": "data/Motion_Perception/Relative_Velocity/Waymo/segment-16102220208346880_1_0sfh_9fen.mp4",
+  "question": "This is a driving video. Please determine which vehicle is moving faster based on their motion over time: the vehicle in the green box or the vehicle in the blue box. Answer Green or Blue.",
+  "options": [
+   "Green",
+   "Blue"
+  ],
+  "gt": "Blue",
+  "montage": "frames/Relative_Velocity_id0111.jpg",
+  "n_frames": 122,
+  "fps": 30.0,
+  "dur_s": 4.07
+ },
+ {
+  "id": 365,
+  "task": "Relative_Velocity",
+  "dimension": "Motion_Perception",
+  "dataset": "Waymo",
+  "video": "data/Motion_Perception/Relative_Velocity/Waymo/segment-5121298817582693383_1_r0dj_bxje.mp4",
+  "question": "This is a driving video. Please determine which vehicle is moving faster based on their motion over time: the vehicle in the green box or the vehicle in the blue box. Answer Green or Blue.",
+  "options": [
+   "Green",
+   "Blue"
+  ],
+  "gt": "Green",
+  "montage": "frames/Relative_Velocity_id0365.jpg",
+  "n_frames": 64,
+  "fps": 30.0,
+  "dur_s": 2.13
+ },
+ {
+  "id": 341,
+  "task": "Relative_Velocity",
+  "dimension": "Motion_Perception",
+  "dataset": "Waymo",
+  "video": "data/Motion_Perception/Relative_Velocity/Waymo/segment-13310437789759009684_1_2the_hvsq.mp4",
+  "question": "This is a driving video. Please determine which vehicle is moving faster based on their motion over time: the vehicle in the green box or the vehicle in the blue box. Answer Green or Blue.",
+  "options": [
+   "Green",
+   "Blue"
+  ],
+  "gt": "Blue",
+  "montage": "frames/Relative_Velocity_id0341.jpg",
+  "n_frames": 38,
+  "fps": 30.0,
+  "dur_s": 1.27
+ },
+ {
+  "id": 364,
+  "task": "Relative_Velocity",
+  "dimension": "Motion_Perception",
+  "dataset": "Waymo",
+  "video": "data/Motion_Perception/Relative_Velocity/Waymo/segment-5076950993715916459_1_xk0p_b_wg.mp4",
+  "question": "This is a driving video. Please determine which vehicle is moving faster based on their motion over time: the vehicle in the green box or the vehicle in the blue box. Answer Green or Blue.",
+  "options": [
+   "Green",
+   "Blue"
+  ],
+  "gt": "Green",
+  "montage": "frames/Relative_Velocity_id0364.jpg",
+  "n_frames": 48,
+  "fps": 30.0,
+  "dur_s": 1.6
+ },
+ {
+  "id": 823,
+  "task": "Relative_Velocity",
+  "dimension": "Motion_Perception",
+  "dataset": "Waymo",
+  "video": "data/Motion_Perception/Relative_Velocity/Waymo/segment-11048712972908676520_1_shs-_sb_t.mp4",
+  "question": "This is a driving video. Please determine which vehicle is moving faster based on their motion over time: the vehicle in the green box or the vehicle in the blue box. Answer Green or Blue.",
+  "options": [
+   "Green",
+   "Blue"
+  ],
+  "gt": "Blue",
+  "montage": "frames/Relative_Velocity_id0823.jpg",
+  "n_frames": 49,
+  "fps": 30.0,
+  "dur_s": 1.63
+ },
+ {
+  "id": 1139,
+  "task": "Rotation_Direction",
+  "dimension": "Motion_Perception",
+  "dataset": "MotionX",
+  "video": "data/Motion_Perception/Rotation_Direction/MotionX/Ways_to_Jump_Sit_Fall_3608_clip1_00_00_00_000_00_00_02_286.mp4",
+  "question": "This is a video of a person performing a rotational action. From a top-down perspective, please determine whether the motion is clockwise or counterclockwise. Answer Clockwise or Counterclockwise.",
+  "options": [
+   "Clockwise",
+   "Counterclockwise"
+  ],
+  "gt": "Counterclockwise",
+  "montage": "frames/Rotation_Direction_id1139.jpg",
+  "n_frames": 56,
+  "fps": 23.0,
+  "dur_s": 2.43
+ },
+ {
+  "id": 1180,
+  "task": "Rotation_Direction",
+  "dimension": "Motion_Perception",
+  "dataset": "YouTube",
+  "video": "data/Motion_Perception/Rotation_Direction/YouTube/body_dance_clip1_Trim.mp4",
+  "question": "This is a video of a person performing a rotational action. From the viewer's perspective, please determine whether the motion is clockwise or counterclockwise. Answer Clockwise or Counterclockwise.",
+  "options": [
+   "Clockwise",
+   "Counterclockwise"
+  ],
+  "gt": "Clockwise",
+  "montage": "frames/Rotation_Direction_id1180.jpg",
+  "n_frames": 78,
+  "fps": 30.2,
+  "dur_s": 2.59
+ },
+ {
+  "id": 1266,
+  "task": "Rotation_Direction",
+  "dimension": "Motion_Perception",
+  "dataset": "YouTube",
+  "video": "data/Motion_Perception/Rotation_Direction/YouTube/Shaolin_Kung_Fu_Wushu_Selfdefense_Sword_Form_Session_1_clip1.mp4",
+  "question": "This is a video of a person performing a rotational action. From a top-down perspective, please determine whether the motion is clockwise or counterclockwise. Answer Clockwise or Counterclockwise.",
+  "options": [
+   "Clockwise",
+   "Counterclockwise"
+  ],
+  "gt": "Counterclockwise",
+  "montage": "frames/Rotation_Direction_id1266.jpg",
+  "n_frames": 77,
+  "fps": 30.0,
+  "dur_s": 2.57
+ },
+ {
+  "id": 1253,
+  "task": "Rotation_Direction",
+  "dimension": "Motion_Perception",
+  "dataset": "YouTube",
+  "video": "data/Motion_Perception/Rotation_Direction/YouTube/Shaolin_Kung_Fu_Wushu_Lotus_Kick_1_clip3_Trim.mp4",
+  "question": "This is a video of a person performing a rotational action. From a top-down perspective, please determine whether the motion is clockwise or counterclockwise. Answer Clockwise or Counterclockwise.",
+  "options": [
+   "Clockwise",
+   "Counterclockwise"
+  ],
+  "gt": "Clockwise",
+  "montage": "frames/Rotation_Direction_id1253.jpg",
+  "n_frames": 40,
+  "fps": 30.5,
+  "dur_s": 1.31
+ },
+ {
+  "id": 1243,
+  "task": "Rotation_Direction",
+  "dimension": "Motion_Perception",
+  "dataset": "YouTube",
+  "video": "data/Motion_Perception/Rotation_Direction/YouTube/Shaolin_Kung_Fu_Wushu_Cartwheel_Training_6_clip1.mp4",
+  "question": "This is a video of a person performing a rotational action. From the viewer's perspective, please determine whether the motion is clockwise or counterclockwise. Answer Clockwise or Counterclockwise.",
+  "options": [
+   "Clockwise",
+   "Counterclockwise"
+  ],
+  "gt": "Counterclockwise",
+  "montage": "frames/Rotation_Direction_id1243.jpg",
+  "n_frames": 212,
+  "fps": 30.0,
+  "dur_s": 7.07
+ },
+ {
+  "id": 491,
+  "task": "Soccer_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Soccer_Shot/Bilibili/440512299-1-30112-5.mp4",
+  "question": "This is a video of a soccer free kick. Please predict whether the ball will go into the goal based on its trajectory, ignoring the goalkeeper and any defensive interference. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Soccer_Shot_id0491.jpg",
+  "n_frames": 69,
+  "fps": 30.0,
+  "dur_s": 2.3
+ },
+ {
+  "id": 594,
+  "task": "Soccer_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "YouTube",
+  "video": "data/Outcome_Prediction/Soccer_Shot/YouTube/videoplayback-1-3.mp4",
+  "question": "This is a video of a soccer free kick. Please predict whether the ball will go into the goal based on its trajectory, ignoring the goalkeeper and any defensive interference. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Soccer_Shot_id0594.jpg",
+  "n_frames": 68,
+  "fps": 30.0,
+  "dur_s": 2.27
+ },
+ {
+  "id": 578,
+  "task": "Soccer_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Soccer_Shot/Bilibili/923644535-1-30112-4.mp4",
+  "question": "This is a video of a soccer free kick. Please predict whether the ball will go into the goal based on its trajectory, ignoring the goalkeeper and any defensive interference. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Soccer_Shot_id0578.jpg",
+  "n_frames": 60,
+  "fps": 30.0,
+  "dur_s": 2.0
+ },
+ {
+  "id": 555,
+  "task": "Soccer_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Soccer_Shot/Bilibili/863143396-1-30112-16.mp4",
+  "question": "This is a video of a soccer free kick. Please predict whether the ball will go into the goal based on its trajectory, ignoring the goalkeeper and any defensive interference. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Soccer_Shot_id0555.jpg",
+  "n_frames": 90,
+  "fps": 30.0,
+  "dur_s": 3.0
+ },
+ {
+  "id": 629,
+  "task": "Soccer_Shot",
+  "dimension": "Outcome_Prediction",
+  "dataset": "YouTube",
+  "video": "data/Outcome_Prediction/Soccer_Shot/YouTube/videoplayback-2-23.mp4",
+  "question": "This is a video of a soccer free kick. Please predict whether the ball will go into the goal based on its trajectory, ignoring the goalkeeper and any defensive interference. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Soccer_Shot_id0629.jpg",
+  "n_frames": 53,
+  "fps": 30.0,
+  "dur_s": 1.77
+ },
+ {
+  "id": 668,
+  "task": "Swimming_Race",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Swimming_Race/Bilibili/59598339-1-30077-2.mp4",
+  "question": "This is a video of a swimming race. The swimmer at the top of the frame is in lane 1, and the lane numbers increase from top to bottom. Please determine which swimmer will reach the finish line first between lane 3 and lane 7. Answer 3 or 7.",
+  "options": [
+   "3",
+   "7"
+  ],
+  "gt": "7",
+  "montage": "frames/Swimming_Race_id0668.jpg",
+  "n_frames": 176,
+  "fps": 30.0,
+  "dur_s": 5.87
+ },
+ {
+  "id": 704,
+  "task": "Swimming_Race",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Swimming_Race/Bilibili/37241685933-1-30116-7.mp4",
+  "question": "This is a video of a swimming race. The swimmer at the top of the frame is in lane 1, and the lane numbers increase from top to bottom. Please determine which swimmer will reach the finish line first between lane 2 and lane 3. Answer 2 or 3.",
+  "options": [
+   "2",
+   "3"
+  ],
+  "gt": "3",
+  "montage": "frames/Swimming_Race_id0704.jpg",
+  "n_frames": 172,
+  "fps": 30.0,
+  "dur_s": 5.73
+ },
+ {
+  "id": 680,
+  "task": "Swimming_Race",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Swimming_Race/Bilibili/406834878_x1-1-30102-2.mp4",
+  "question": "This is a video of a swimming race. The swimmer at the top of the frame is in lane 1, and the lane numbers increase from top to bottom. Please determine which swimmer will reach the finish line first between lane 4 and lane 7. Answer 4 or 7.",
+  "options": [
+   "4",
+   "7"
+  ],
+  "gt": "4",
+  "montage": "frames/Swimming_Race_id0680.jpg",
+  "n_frames": 87,
+  "fps": 30.0,
+  "dur_s": 2.9
+ },
+ {
+  "id": 718,
+  "task": "Swimming_Race",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Swimming_Race/Bilibili/37241685933-1-30116-12.mp4",
+  "question": "This is a video of a swimming race. The swimmer at the top of the frame is in lane 1, and the lane numbers increase from top to bottom. Please determine which swimmer will reach the finish line first between lane 5 and lane 7. Answer 5 or 7.",
+  "options": [
+   "5",
+   "7"
+  ],
+  "gt": "5",
+  "montage": "frames/Swimming_Race_id0718.jpg",
+  "n_frames": 156,
+  "fps": 30.0,
+  "dur_s": 5.2
+ },
+ {
+  "id": 678,
+  "task": "Swimming_Race",
+  "dimension": "Outcome_Prediction",
+  "dataset": "Bilibili",
+  "video": "data/Outcome_Prediction/Swimming_Race/Bilibili/406834878_x1-1-30102-1.mp4",
+  "question": "This is a video of a swimming race. The swimmer at the top of the frame is in lane 1, and the lane numbers increase from top to bottom. Please determine which swimmer will reach the finish line first between lane 4 and lane 6. Answer 4 or 6.",
+  "options": [
+   "4",
+   "6"
+  ],
+  "gt": "6",
+  "montage": "frames/Swimming_Race_id0678.jpg",
+  "n_frames": 136,
+  "fps": 30.0,
+  "dur_s": 4.53
+ },
+ {
+  "id": 77,
+  "task": "Vehicle_Movement",
+  "dimension": "Motion_Perception",
+  "dataset": "Waymo",
+  "video": "data/Motion_Perception/Vehicle_Movement/Waymo/segment-57132587708734824_2_gytz.mp4",
+  "question": "This is a driving video. Please determine whether the vehicle in the green box shows subtle movement during the video. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Vehicle_Movement_id0077.jpg",
+  "n_frames": 60,
+  "fps": 30.0,
+  "dur_s": 2.0
+ },
+ {
+  "id": 310,
+  "task": "Vehicle_Movement",
+  "dimension": "Motion_Perception",
+  "dataset": "Waymo",
+  "video": "data/Motion_Perception/Vehicle_Movement/Waymo/segment-3364861183015885008_1_l12e.mp4",
+  "question": "This is a driving video. Please determine whether the vehicle in the green box shows subtle movement during the video. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Vehicle_Movement_id0310.jpg",
+  "n_frames": 126,
+  "fps": 30.0,
+  "dur_s": 4.2
+ },
+ {
+  "id": 323,
+  "task": "Vehicle_Movement",
+  "dimension": "Motion_Perception",
+  "dataset": "Waymo",
+  "video": "data/Motion_Perception/Vehicle_Movement/Waymo/segment-7761658966964621355_1_6mli.mp4",
+  "question": "This is a driving video. Please determine whether the vehicle in the green box shows subtle movement during the video. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Vehicle_Movement_id0323.jpg",
+  "n_frames": 52,
+  "fps": 30.0,
+  "dur_s": 1.73
+ },
+ {
+  "id": 82,
+  "task": "Vehicle_Movement",
+  "dimension": "Motion_Perception",
+  "dataset": "Waymo",
+  "video": "data/Motion_Perception/Vehicle_Movement/Waymo/segment-384975055665199088_2_d7yo.mp4",
+  "question": "This is a driving video. Please determine whether the vehicle in the green box shows subtle movement during the video. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "No",
+  "montage": "frames/Vehicle_Movement_id0082.jpg",
+  "n_frames": 76,
+  "fps": 30.0,
+  "dur_s": 2.53
+ },
+ {
+  "id": 81,
+  "task": "Vehicle_Movement",
+  "dimension": "Motion_Perception",
+  "dataset": "Waymo",
+  "video": "data/Motion_Perception/Vehicle_Movement/Waymo/segment-183829460855609442_1_p-9i.mp4",
+  "question": "This is a driving video. Please determine whether the vehicle in the green box shows subtle movement during the video. Answer Yes or No.",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "gt": "Yes",
+  "montage": "frames/Vehicle_Movement_id0081.jpg",
+  "n_frames": 84,
+  "fps": 30.0,
+  "dur_s": 2.8
+ }
+]
