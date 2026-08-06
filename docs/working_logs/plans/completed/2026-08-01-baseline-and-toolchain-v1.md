@@ -1,6 +1,7 @@
 ---
-status: active
+status: completed
 created: 2026-08-01
+completed: 2026-08-03
 ---
 
 # Baseline 复现 + 工具链 v1（T1/T2/T4）
@@ -168,13 +169,80 @@ T2 ego-motion 补偿 + T4 轨迹外推 + 证据摘要器）实现 driving 双任
 
 ## Acceptance Criteria
 
-- [ ] baseline direct + manual-CoT 两组 acc（public 670）写入 run log，前端可见
-- [ ] T1/T2 在 driving 双任务 A/B 有结论（vs baseline per-task acc）
-- [ ] T4 在球类任务 A/B 有结论
-- [ ] 误差分析留档（notes/analyses/）
+- [x] baseline direct + manual-CoT 两组 acc（public 670）写入 run log，前端可见
+- [x] T1/T2 在 driving 双任务 A/B 有结论（vs baseline per-task acc）
+- [ ] T4 在球类任务 A/B 有结论 — 转为 V4 action plan 架构覆盖，不再单独做 T4
+- [x] 误差分析留档（notes/analyses/）
 
 ---
 
 ## Execution Report
 
-（待填写）
+### Summary
+
+经历三个阶段迭代，从人工硬路由 → VLM 自由 plan+verify → 模型驱动 action plan pipeline。
+
+| Version | Accuracy | Architecture |
+|---------|----------|-------------|
+| V1 (task routing) | 51.4% | 硬编码 task 路由 + 手写 solver |
+| V2 (observe+judge+recipe) | 57.8% | recipe + VLM observe+judge fallback |
+| V4 (action plan, plus) | 55.6% | 模型选动作 → 预建代码 → hybrid verify |
+| Baseline (plus) | 50.6% | direct prompting |
+| Baseline (8b-thinking) | 50.6% | direct prompting, 与 plus 互补 |
+
+### Changed Files
+
+| File | Change |
+|------|--------|
+| `agent/llm.py` | LLM 客户端（双 key 轮换+重试+model override） |
+| `agent/prompts.py` | Plan/Verify 双隔离 prompt |
+| `agent/run_plan_verify.py` | 全量 plan+verify runner |
+| `agent/coding_agent/` | V4 action plan pipeline（全部新建） |
+| `agent/eval_baseline.py` | baseline 直接推理评测 |
+| `agent/tools/` | 底层工具：ground_track, motion, ego_odom, pose_motion 等 |
+| `scripts/` | 可视化、前端脚本 |
+| `web_frontend.py` | Streamlit 前端（taxonomy/leaderboard/sample browser） |
+
+### Verification Results
+
+见 run logs:
+- `runs/2026-08-02_plan_verify_full.md` — Plan+Verify 全量结果
+- `runs/2026-08-03_v4_action_plan_eval.md` — V4 pipeline 全量结果
+- `runs/2026-08-03_8b_thinking_eval.md` — 8b-thinking 模型对比
+
+### Outputs
+
+- `outputs/predictions/baseline_8b_thinking.jsonl` — 8b-thinking baseline
+- `outputs/predictions/coding_agent_8b_thinking.jsonl` — 8b-thinking V4 (partial)
+- `outputs/predictions/coding_agent_v4_hybrid.jsonl` — plus V4 全量
+- `outputs/plan_verify/qwen3-vl-plus_plan_verify.jsonl` — plan+verify 全量
+
+### Remaining Issues
+
+- torch 不可用 → 关键点工具 disabled
+- VLM "No" bias → 预测类任务准确率受限
+- 两模型互补但未实现 ensemble
+
+### Human Review Guide
+
+#### What changed conceptually
+
+从人工设计工具+硬路由，演化为模型自主选择工具的 action plan 架构。证明了工具增强（+5pp）和模型互补（oracle +4pp）的可行性。
+
+#### Key code pointers
+
+* `agent/coding_agent/pipeline.py:solve_sample` — V4 主流程
+* `agent/coding_agent/action_executor.py:execute_plan` — 8 种动作执行器
+* `agent/coding_agent/prompts/planner.py` — 模型选动作的 prompt
+* `agent/coding_agent/prompts/verifier.py` — hybrid verify prompt
+* `agent/llm.py:chat` — LLM 调用入口
+
+#### Code maps created/updated
+
+* N/A
+
+### Suggested Next Step
+
+- Model ensemble (plus + 8b-thinking, per-task routing)
+- 安装 torch 启用关键点工具
+- 测试更强 VLM (qwen3-vl-max)
