@@ -40,8 +40,32 @@ Index of all output directories and artifacts produced by this project.
 **Format**: `overview_dashboard.png`（leaderboard/任务热力图/错误分布）+ `samples/<id>_replay.mp4`（样本回放）
 **Notes**: mp4 为 ffmpeg libx264 编码；样本回放用于 case 分析，可定期清理
 
+### Coding Agent V4 results
+**Path**: `outputs/predictions/coding_agent_v4_hybrid.jsonl`
+**Produced by**: `agent/coding_agent/eval_coding_agent.py`
+**Format**: JSONL，每行 `{id, task, gt, pred, correct, src, question, options, video, dimension, evidence, code, analysis_spec, elapsed_s, error}`
+**Notes**: qwen3-vl-plus, V4 action plan pipeline, 403 samples, 55.6%
+
+### 8b-thinking baseline
+**Path**: `outputs/predictions/baseline_8b_thinking.jsonl`
+**Produced by**: `agent/eval_baseline.py`
+**Format**: JSONL，每行 `{id, task, gt, pred, correct, src, question, options, raw_answer, elapsed_s, model}`
+**Notes**: qwen3-vl-8b-thinking, direct prompting, 403 samples, 50.6%
+
+### 8b-thinking V4 pipeline (partial)
+**Path**: `outputs/predictions/coding_agent_8b_thinking.jsonl`
+**Produced by**: `agent/coding_agent/eval_coding_agent.py`
+**Format**: 同 Coding Agent V4 results
+**Notes**: qwen3-vl-8b-thinking, 107/403 samples (partial), 47.4%
+
 ### Task posters
 **Path**: `web/posters/`
 **Produced by**: `scripts/gen_task_posters.py`
 **Format**: 15 张 480×270 JPG（每任务一帧代表帧）
 **Notes**: taxonomy 页用；benchmark 数据更新后需重新生成
+
+### pi harness Stage 1 dev results
+**Path**: `outputs/predictions/pi_qwen3-vl-plus_dev_20260806.jsonl`
+**Produced by**: `agent/eval_pi.py`
+**Format**: JSONL，每行 `{id, task, gt, pred, correct, src, question, options, video, dimension, raw_answer, elapsed_s, model}`
+**Notes**: qwen3-vl-plus via pi v0.84.0（print 模式,无工具）, 403 samples, **54.6%**; run log `docs/working_logs/runs/2026-08-06_pi_stage1_dev.md`; 冒烟记录另存 `pi_smoke_test.jsonl`

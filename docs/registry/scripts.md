@@ -24,6 +24,27 @@ Index of all scripts in this project. Each entry documents purpose, usage, input
 
 ## Agent 包（`agent/`）
 
+### agent/coding_agent/eval_coding_agent.py
+**Purpose**: V4 action plan pipeline 批量评测（checkpoint/resume）
+**Usage**: `/opt/conda/bin/python agent/coding_agent/eval_coding_agent.py [--split dev] [--tasks T1,T2] [--limit N] [--resume] [--workers 1]`
+**Inputs**: benchmark `data.json` + 视频 + `agent/llm_keys.local.json`
+**Outputs**: `outputs/predictions/coding_agent_<timestamp>.jsonl`
+**Notes**: 支持 `VISTR_LLM_MODEL` 环境变量切换模型
+
+### agent/eval_baseline.py
+**Purpose**: baseline 直接推理评测（frames + question → answer，无工具）
+**Usage**: `[VISTR_LLM_MODEL=xxx] /opt/conda/bin/python agent/eval_baseline.py [--split dev] [--limit N] [--resume] [--max-tokens 500]`
+**Inputs**: benchmark `data.json` + 视频 + `agent/llm_keys.local.json`
+**Outputs**: `outputs/predictions/baseline_<model>_<timestamp>.jsonl`
+**Notes**: 支持 `VISTR_LLM_MODEL` 环境变量切换模型
+
+### agent/eval_pi.py
+**Purpose**: pi harness 评测（Stage 1: 抽帧 + `pi -p` 带图问答,无工具）
+**Usage**: `/opt/conda/bin/python -u agent/eval_pi.py [--split dev] [--limit N] [--resume] [--workers 4]`
+**Inputs**: benchmark `data.json` + 视频; pi 安装于 `third_party/pi-runtime/`; provider 配置 `~/.pi/agent/models.json`（含 key,chmod 600,repo 外）
+**Outputs**: `outputs/predictions/pi_<model>_<timestamp>.jsonl`
+**Notes**: 环境变量 `VISTR_PI_PROVIDER` / `VISTR_PI_MODEL` 切换; pi session 会积累在 `~/.pi/agent/sessions/`,量大需清理
+
 ### agent/run_plan_verify.py
 **Purpose**: 二阶段探究 runner——qwen3-vl-plus 对每题做 plan + verify 双隔离调用
 **Usage**: `/opt/conda/bin/python -u agent/run_plan_verify.py [--limit N] [--workers 8] [--task Basketball_Shot]`

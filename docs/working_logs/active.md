@@ -1,15 +1,38 @@
 ---
 status: active
-last_updated: 2026-08-03
+last_updated: 2026-08-06
 ---
 
-# Active Work
+# ViSTR-Agent — Active Work State
 
-## Current task
+## Current Focus: pi 作为新 harness
 
-**Phase 4 V4: Model-driven Action Plan Pipeline** — 全量 dev 评测完成，结果 55.6%。
+SpatialClaw 判定过于死板,换用 pi (https://github.com/earendil-works/pi) 作为新 baseline harness。
 
-## Status
+**Stage 1 已完成 (2026-08-06)**: pi v0.84.0 局部安装于 `third_party/pi-runtime/`,
+`agent/eval_pi.py`(抽 8 帧 → `pi -p` 带图问答 → 打分),provider 配置在 `~/.pi/agent/models.json`(repo 外,含 key,chmod 600)。
+全量 dev **54.6% (220/403)**,0 errors,36 min (4 workers)。
+计划书: `plans/completed/0806-[pi作为harness]stage1-拉通.md`,run log: `runs/2026-08-06_pi_stage1_dev.md`。
+
+**关键观察**: pi 无工具(纯问答)已超裸 API baseline +4pp,仅差 V4 全工具版 1pp;
+"No" bias 明显缓解(Yes/No 题 pred Yes 46% vs gt 56%);Golf 44%→62%、Soccer 49%→55% 提升,但 Basketball 65%→43% 回退。
+
+**Next (Stage 2)**: 启用 pi 工具能力(bash/read + 帧目录工作区),让模型自主探索帧/调用分析工具。
+
+## Key Results Summary
+
+| Configuration | Accuracy | Samples |
+|---------------|----------|---------|
+| qwen3-vl-plus baseline | 50.6% | 403 |
+| **qwen3-vl-plus via pi (Stage 1, 无工具)** | **54.6%** | 403 |
+| qwen3-vl-plus + V4 tools | 55.6% | 403 |
+| qwen3-vl-8b-thinking baseline | 50.6% | 403 |
+| qwen3-vl-8b-thinking + V4 tools | 47.4% | 107 (partial) |
+| Best-of-both oracle (per-task) | 59.3% | 403 (estimated) |
+
+两模型互补：8b-thinking 擅长预测类 (Soccer +23pp, Golf +12pp)，plus 擅长空间感知 (Passage +19pp, Ego +18pp)。
+
+## History
 
 ### V4 Action Plan Pipeline (2026-08-02 ~ 08-03)
 
