@@ -231,7 +231,18 @@ export default function vistrVideoTools(pi: ExtensionAPI) {
 						{ type: "text", text: `High-resolution crop (${x1 - x0}×${y1 - y0}px of ${g.width}×${g.height}):` },
 						{ type: "image", data: cropB64, mimeType: "image/jpeg" },
 					],
-					details: { chosen: cand, pixels: [x0, y0, x1, y1] },
+					details: {
+						path: params.path,
+						time_s: params.time_s ?? null,
+						target: params.target,
+						frame_size: [g.width, g.height],
+						grounding_bbox: cand.bbox,
+						crop_bbox: [x0, y0, x1, y1],
+						grounding_phrase: cand.phrase,
+						grounding_score: cand.score,
+						candidate_count: g.candidates.length,
+						selection_mode: g.candidates.length === 1 ? "single" : "vlm_select",
+					},
 				};
 			} finally {
 				await rm(dir, { recursive: true, force: true });
@@ -293,7 +304,8 @@ export default function vistrVideoTools(pi: ExtensionAPI) {
 						{ type: "text", text: `Crop of ${params.path}${isVideo ? ` @ t=${params.time_s!.toFixed(2)}s` : ""}, bbox [${nb.join(", ")}]/1000 → ${x1 - x0}×${y1 - y0}px of ${w}×${h} original:` },
 						{ type: "image", data, mimeType: "image/jpeg" },
 					],
-					details: { pixels: [x0, y0, x1, y1], source: [w, h] },
+					details: { path: params.path, time_s: params.time_s ?? null,
+						pixels: [x0, y0, x1, y1], source: [w, h] },
 				};
 			} finally {
 				await rm(dir, { recursive: true, force: true });

@@ -86,7 +86,9 @@ def solve_agentic(sample, timeout=600):
                                extra_tools=EXTRA_TOOLS_NOTE if EXTENSION else "")
         cmd = [PI_BIN, "-p", "--provider", PROVIDER, "--model", MODEL]
         if EXTENSION:
-            cmd += ["-e", EXTENSION]
+            for ext in EXTENSION.split(","):
+                if ext.strip():
+                    cmd += ["-e", ext.strip()]
         cmd.append(prompt)
         try:
             last_err = None
