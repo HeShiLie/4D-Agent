@@ -81,6 +81,19 @@ Index of all scripts in this project. Each entry documents purpose, usage, input
 **Outputs**: `outputs/hf_export/stage{1,2}_trajectories.tar.gz`
 **Notes**: S1 按首帧 md5 匹配(题目文本同任务内重复);S2 按题目+答案指纹;参考 GenDoP upload 模式
 
+### scripts/perception_service.py
+**Purpose**: 常驻 perception model-pool 服务(GroundingDINO GPU 常驻;可扩 SAM2/DA3/VGGT)
+**Usage**: `nohup /home/admin/.conda/envs/star/bin/python -u scripts/perception_service.py --port 7876 --eager > /tmp/perception_service.log 2>&1 &`
+**Inputs**: 权重 `/mnt/xlab-nas-wm/gaozhe.gz/hf_datasets/grounding-dino-base`
+**Outputs**: HTTP `/health` `/ground` `/annotate`(供 semantic_crop extension 调用)
+**Notes**: extension 禁止自行加载权重;文本 prompt 仅英文(BERT 词表)
+
+### scripts/grounding_probe.py
+**Purpose**: semantic_crop vs read_crop 小规模 grounding 对比(5 探针,首发命中率/调用次数)
+**Usage**: `/opt/conda/bin/python scripts/grounding_probe.py --tool semantic_crop|read_crop`
+**Outputs**: `outputs/grounding_probe/<tool>/`(crop 图)+ `<tool>_results.json`
+**Notes**: 需 perception 服务(7876)在线;探针为 task-agnostic 目标描述
+
 ### visualize_results.py
 **Purpose**: ViSTR-Bench 可视化前端 — leaderboard 总览 dashboard（PNG）+ 样本级回放视频（MP4）
 **Usage**: `/opt/conda/bin/python visualize_results.py [--mode overview|samples] [--results outputs/predictions/xxx.jsonl]`

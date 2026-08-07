@@ -1,42 +1,48 @@
 ---
 status: active
-last_updated: 2026-08-06
+last_updated: 2026-08-07
 ---
 
 # ViSTR-Agent — Active Work State
 
-## Current Focus: pi 作为新 harness
+## Current Focus: pi harness 观察原语体系(已完成四阶段)
 
-SpatialClaw 判定过于死板,换用 pi (https://github.com/earendil-works/pi) 作为新 baseline harness。
+pi (v0.84.0) 为 harness;通过 extension 逐步构建 task-agnostic 观察原语,
+**只改观察接口不教任务解法**,qwen3-vl-plus 在 90 题均匀子集上 50.0% → **56.7%**,
+首超 SpatialClaw(53.3%)。计划书: `plans/completed/0807-[pi作为harness]stage2.1-pi+多图阅读工具.md`,
+run log: `runs/2026-08-07_pi_observation_primitives.md`。
 
-**Stage 1 已完成 (2026-08-06)**: `agent/eval_pi.py`(抽 8 帧 → `pi -p` 带图问答)。
-全量 dev **54.6% (220/403)**。计划书: `plans/completed/0806-[pi作为harness]stage1-拉通.md`。
+**观察原语四件套**(`agent/pi_ext/vistr_video_tools.ts`):
+- `read`(pi 原生)单帧 | `read_crop` normalized bbox 空间放大
+- `read_video_sequence` 连续时间片段 | `read_multiframe` 离散证据帧联查
+- `index_video` batch VLM caption 时间线(无题目上下文)
+- `semantic_crop` 文字描述 → GroundingDINO 定位 → 隔离 VLM 选候选 → 高清裁剪+回执
 
-**Stage 2 已完成 (2026-08-07)**: `agent/eval_pi_agentic.py` — pi 原生工具集,
-workspace + video.mp4,agent 自主 ffprobe/ffmpeg 抽帧 + read 看图(均 14.7 轮/题)。
-全量 dev **53.8% (217/403)**。关键修复: 网关流式 tool-call args 为累积式,
-补丁 `scripts/patch_pi_cumulative_args.py`(npm 重装后需重跑)。
-计划书: `plans/completed/0806-[pi作为harness]stage2-pi原生工具拉通.md`,
-run log: `runs/2026-08-06_pi_stage2_agentic_dev.md`。
+**基础设施**: `scripts/perception_service.py` — 常驻 perception model-pool(:7876,
+GroundingDINO GPU 常驻 MI308X;可扩 SAM2/DA3/VGGT);启动:
+`nohup .../star/bin/python -u scripts/perception_service.py --port 7876 --eager &`
 
-**核心发现**: S1/S2 高度互补 — S2-only 对 69 题,S1-only 对 72 题,**union oracle 71.7%**。
-工具赢在关键瞬间类(Basketball +11pp),输在运动感知类(Relative_Velocity -28pp)。
+**评测约定**: 默认 `--per-task 6`(90 题);全量仅用户明确要求。
 
-**Case Viewer**: `scripts/pi_case_viewer.py`(Flask, 7875 端口,代理友好)+
-`scripts/build_case_viewer.py`(数据包构建);S1/S2 对比 + Stage2 轨迹回放。
+**其他资产**: Case viewer(Flask :7875,S1/S2/S2.1/S2.2 轨迹 tab 切换);
+opus S1 全量 57.1%;HF 轨迹数据集 MihailSlutsky/vistr-pi-trajectories。
 
-**Next**: 混合路由(运动类走 S1,瞬间类走 S2)冲 60%+。
+**Next 候选**:
+1. 运动感知三弱项(Fall/RelVel/Vehicle 各 1/6):光流/跟踪后端进 model pool
+2. 观察策略融合(S2.x oracle 76.7%)
+3. opus + 全套原语
 
 ## Key Results Summary
 
 | Configuration | Accuracy | Samples |
 |---------------|----------|---------|
 | qwen3-vl-plus baseline | 50.6% | 403 |
-| **qwen3-vl-plus via pi (Stage 1, 无工具)** | **54.6%** | 403 |
+| qwen3-vl-plus via pi S1(纯问答) | 54.6% | 403 |
 | qwen3-vl-plus + V4 tools | 55.6% | 403 |
+| SpatialClaw | 56.6% | 403 |
+| claude-opus-4-6 via pi S1 | 57.1% | 403 |
+| **pi S2.4b(全套观察原语)** | **56.7%** | 90(均匀) |
 | qwen3-vl-8b-thinking baseline | 50.6% | 403 |
-| qwen3-vl-8b-thinking + V4 tools | 47.4% | 107 (partial) |
-| Best-of-both oracle (per-task) | 59.3% | 403 (estimated) |
 
 两模型互补：8b-thinking 擅长预测类 (Soccer +23pp, Golf +12pp)，plus 擅长空间感知 (Passage +19pp, Ego +18pp)。
 
