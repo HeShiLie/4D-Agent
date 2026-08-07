@@ -74,6 +74,13 @@ Index of all scripts in this project. Each entry documents purpose, usage, input
 **Inputs**: `web/case_viewer/data/`(先跑 build_case_viewer.py)+ benchmark 视频
 **Notes**: 无 websocket 依赖;`web/case_viewer/index.html` 为静态版备用
 
+### scripts/upload_hf_pi_trajs.py
+**Purpose**: 打包 S1/S2 pi 轨迹(session JSONL + manifest)并上传 HF dataset(`MihailSlutsky/vistr-pi-trajectories`)
+**Usage**: `HF_ENDPOINT=https://hf-mirror.com /home/admin/.conda/envs/star/bin/python -u scripts/upload_hf_pi_trajs.py [--skip-upload]`
+**Inputs**: `~/.pi/agent/sessions/` + `outputs/predictions/pi_*_dev_20260806.jsonl`;token `/mnt/xlab-nas-wm/gaozhe.gz/hf_datasets/hf_tokens.txt`
+**Outputs**: `outputs/hf_export/stage{1,2}_trajectories.tar.gz`
+**Notes**: S1 按首帧 md5 匹配(题目文本同任务内重复);S2 按题目+答案指纹;参考 GenDoP upload 模式
+
 ### visualize_results.py
 **Purpose**: ViSTR-Bench 可视化前端 — leaderboard 总览 dashboard（PNG）+ 样本级回放视频（MP4）
 **Usage**: `/opt/conda/bin/python visualize_results.py [--mode overview|samples] [--results outputs/predictions/xxx.jsonl]`
