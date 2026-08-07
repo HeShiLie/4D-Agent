@@ -45,6 +45,12 @@ Index of all scripts in this project. Each entry documents purpose, usage, input
 **Outputs**: `outputs/predictions/pi_<model>_<timestamp>.jsonl`
 **Notes**: 环境变量 `VISTR_PI_PROVIDER` / `VISTR_PI_MODEL` 切换; pi session 会积累在 `~/.pi/agent/sessions/`,量大需清理
 
+### agent/pi_ext/vistr_video_tools.ts
+**Purpose**: pi extension — 观察原语五件套(index_video / read_video_sequence / read_multiframe / read_crop / semantic_crop)
+**Usage**: `pi -p -e agent/pi_ext/vistr_video_tools.ts ...` 或评测脚本 `VISTR_PI_EXTENSION` 环境变量
+**Inputs**: workspace 内视频/图片;semantic_crop 依赖 perception 服务(:7876);caption/selection subcall 走 `~/.pi/agent/models.json` 网关
+**Notes**: 全部 task-agnostic;code map `docs/code_maps/systems/pi_observation_stack.md`
+
 ### agent/run_plan_verify.py
 **Purpose**: 二阶段探究 runner——qwen3-vl-plus 对每题做 plan + verify 双隔离调用
 **Usage**: `/opt/conda/bin/python -u agent/run_plan_verify.py [--limit N] [--workers 8] [--task Basketball_Shot]`
