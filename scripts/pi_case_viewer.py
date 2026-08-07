@@ -37,7 +37,11 @@ def api_cases():
              "s21": ({"pred": c["s21"]["pred"], "correct": c["s21"]["correct"]}
                      if c.get("s21") else None),
              "s22": ({"pred": c["s22"]["pred"], "correct": c["s22"]["correct"]}
-                     if c.get("s22") else None)}
+                     if c.get("s22") else None),
+             "s23": ({"pred": c["s23"]["pred"], "correct": c["s23"]["correct"]}
+                     if c.get("s23") else None),
+             "s24": ({"pred": c["s24"]["pred"], "correct": c["s24"]["correct"]}
+                     if c.get("s24") else None)}
             for c in CASES]
     return jsonify(slim)
 
@@ -193,6 +197,8 @@ function render() {
       `<span class="badge ${c.s2.correct ? 'b-ok' : 'b-bad'}">S2</span>` +
       (c.s21 ? `<span class="badge ${c.s21.correct ? 'b-ok' : 'b-bad'}">S2.1</span>` : '') +
       (c.s22 ? `<span class="badge ${c.s22.correct ? 'b-ok' : 'b-bad'}">S2.2</span>` : '') +
+      (c.s23 ? `<span class="badge ${c.s23.correct ? 'b-ok' : 'b-bad'}">S2.3</span>` : '') +
+      (c.s24 ? `<span class="badge ${c.s24.correct ? 'b-ok' : 'b-bad'}">S2.4b</span>` : '') +
       `<span class="dim">#${c.id}</span>` +
       `<div class="q">${esc(c.question)}</div>`;
     div.onclick = () => { sel = c.id; render(); show(c.id); };
@@ -241,10 +247,16 @@ async function show(id) {
         <span class="${c.s21.correct ? 'b-ok' : 'b-bad'} badge">${c.s21.pred ?? '—'}</span>` : ''}
         ${c.s22 ? `<span>Stage 2.2 (index+证据帧)</span>
         <span class="${c.s22.correct ? 'b-ok' : 'b-bad'} badge">${c.s22.pred ?? '—'}</span>` : ''}
+        ${c.s23 ? `<span>Stage 2.3 (read_crop)</span>
+        <span class="${c.s23.correct ? 'b-ok' : 'b-bad'} badge">${c.s23.pred ?? '—'}</span>` : ''}
+        ${c.s24 ? `<span>Stage 2.4b (semantic_crop)</span>
+        <span class="${c.s24.correct ? 'b-ok' : 'b-bad'} badge">${c.s24.pred ?? '—'}</span>` : ''}
         <span class="dim">S2/S2.1 耗时</span><span class="dim">${c.s2.elapsed}s${c.s21 ? ' / '+c.s21.elapsed+'s' : ''}</span>
         </div></div>`;
   h += `</div>`;
   const trajs = [];
+  if (c.traj24 && c.traj24.length) trajs.push(['S2.4b (semantic_crop)', c.traj24]);
+  if (c.traj23 && c.traj23.length) trajs.push(['S2.3 (read_crop)', c.traj23]);
   if (c.traj22 && c.traj22.length) trajs.push(['S2.2 (index+证据帧)', c.traj22]);
   if (c.traj21 && c.traj21.length) trajs.push(['S2.1 (多图工具)', c.traj21]);
   if (c.traj && c.traj.length) trajs.push(['S2 (原生工具)', c.traj]);
