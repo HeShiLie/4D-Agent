@@ -197,10 +197,29 @@ export default function evidenceLedger(pi: ExtensionAPI) {
 			"evidence with broader world-time/spatial support. A REFINES entry adds " +
 			"local detail to its parent; it does not replace it.\n" +
 			"</EVIDENCE_STATE>";
-		const messages = [...event.messages, {
-			role: "custom", customType: "evidence-ledger",
-			content: dashboard, display: false, timestamp: Date.now(),
-		}];
+
+		// Mode "tail" (S2.5a): append as a synthetic trailing message. pi converts
+		// role:"custom" to role:"user" in the provider payload, so this reads as a
+		// brand-new user turn and hijacks task framing (verified negative result).
+		if ((process.env.VISTR_LEDGER_MODE ?? "anchor") === "tail") {
+			const messages = [...event.messages, {
+				role: "custom", customType: "evidence-ledger",
+				content: dashboard, display: false, timestamp: Date.now(),
+			}];
+			return { messages };
+		}
+
+		// Mode "anchor" (S2.5b): transiently rewrite the ORIGINAL first user message,
+		// prefixing the dashboard BEFORE the task text, so the task/options/FINAL
+		// requirements stay closest to the end of that turn. No extra message is added.
+		const messages = event.messages.map((m: any) => ({ ...m }));
+		const first = messages.find((m: any) => m.role === "user");
+		if (!first) return;
+		if (typeof first.content === "string") {
+			first.content = dashboard + "\n\n" + first.content;
+		} else if (Array.isArray(first.content)) {
+			first.content = [{ type: "text", text: dashboard }, ...first.content];
+		}
 		return { messages };
 	});
 }
